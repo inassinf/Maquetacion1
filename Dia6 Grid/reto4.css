@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+.gridAreas{
+  
+    display: grid;
+    grid-template-areas: 
+     'header header  image'
+
+     'asides contenidot contenidot'
+
+     'footer footer footer'
+    
+}
+
+.header {
+  height: 100px;
+  background-color: rgb(225, 29, 29);
+  grid-area: header;
+  text-align: center;
+  color: white;
+}
+
+.image {
+  height: 100px;
+  background-color: rgb(120, 8, 8);
+  grid-area: image;
+  text-align: center;
+  color: white;
+}
+
+.asides {
+  height: 400px;
+  background-color: rgb(249, 93, 36);
+  grid-area: asides;
+
+  display: grid;
+  grid-template-areas: "aside1"
+                       "aside0"
+                       "aside2";
+}
+
+  .aside1 {        
+      margin: 5px;
+     
+      background-color: white;
+      grid-area:aside1;
+      color:orangered;      
+      text-align: center; 
+  }
+
+  .aside0 {        
+      margin: 5px;
+
+      grid-area:aside0;
+             
+  }
+
+
+  .aside2 {        
+      margin: 5px;
+    
+      background-color: white;
+      grid-area:aside2;
+      color:orangered; 
+      text-align: center;
+  } 
+
+.contenidot {
+  height: 400px;
+  background-color: rgb(246, 46, 6);
+  grid-area: contenidot;
+  text-align: center;
+  color: white;
+
+  display: grid;
+  grid-template-areas:  "contenido1"
+                          "texto";
+}
+  .contenido1 {
+      margin: 5px;
+      border: 2px solid white;
+      grid-area: contenido1;
+  }
+
+  .texto {
+      margin: 5px;
+      border: 2px solid white;
+      grid-area: texto;
+  }
+
+
+.footer {
+  height: 100px;
+  grid-area: footer;
+  background-color: rgb(120, 8, 8);
+  text-align: center;
+  color: white;
+}
