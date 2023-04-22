@@ -1,0 +1,87 @@
+
+
+.layuout{
+    border: 5px solid rgb(243, 236, 243);
+    width: 350px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 5px;
+   
+}
+
+  .header{
+    display: flex;
+    border: 2px solid rgb(95, 149, 13);
+    height: 20px;
+   justify-content: flex-start;
+   padding: 4px;
+   border-radius: 2%;
+   margin: 3px;
+  }
+
+  .nav{
+    border: 2px solid violet;
+    height: 15px;
+   justify-self: center;
+   padding: 4px;
+   margin: 3px;
+   border-radius: 2%;
+  }
+
+  .contenido{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .article{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(44, 44, 189);
+    width: 70%;
+    padding: 4px;
+   margin: 3px;
+    
+    
+
+  }  .section0{
+        height: 250px;
+       }
+
+     .section{
+        border: 2px solid rgb(231, 31, 231);
+        height: 30px;
+        padding: 4px;
+        margin: 3px;
+     }
+
+  .div{
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(168, 91, 91);
+    width: 30%;
+    margin: 2px;
+    justify-content: space-evenly;
+    
+  }
+
+    .aside{
+        height: 45%;
+        border: 2px solid rgb(4, 178, 194);
+        margin: 3px;
+    }
+
+  .footer{
+    display: flex;
+    height: 25px;
+    border: solid rgb(110, 91, 91);
+    padding: 4px;
+   margin: 3px; 
+    
+  }
+
+ 
+

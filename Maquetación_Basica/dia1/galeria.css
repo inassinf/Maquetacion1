@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .navegador{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}   
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 0;
+    
+}
+
+linea1{
+    display: flex;
+
+}
+
+linea2{
+    display: flex;
+    
+
+}
+
+linea1 img{
+    width: 33.3%;
+
+}
+
+linea2 img{
+    width: 33.3%;
+
+}
